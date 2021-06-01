@@ -1,0 +1,300 @@
+
+/*******************
+GENERAL
+********************/
+
+body {
+	font-family: 'Dosis', sans-serif;
+	}
+
+a {
+	text-decoration: none;
+	
+	}
+
+h3 {
+	margin: 0 0 1em 0;
+	text-align: center;
+	}
+
+* {
+	box-sizing: border-box;
+		}
+
+/*******************
+HEADING
+********************/
+
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	margin: 15px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 0.8em;
+	text-align: center;
+	}	
+
+h2 {
+	font-size: 1em;
+	margin: 0;
+	font-weight: normal;
+	margin-bottom: 3vh;
+	text-align: center;
+	}
+
+
+
+/*******************
+NAVIGATION
+********************/
+
+
+.main-nav  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	z-index: 10;
+	}
+
+
+
+.nav {
+	flex-grow: 1;
+	padding: 10px 0;
+	}
+
+.nav-one,
+.nav-two,
+.nav-three {
+	text-align: center;
+	max-width: 100px;
+	}
+
+nav a { 
+	font-weight: 800;
+	padding: 15px 10px;
+	}
+
+
+/*******************
+BODY
+********************/
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	}
+
+.main-row	{
+	flex: 1;
+	}
+
+
+
+/********************
+PORTFOLIO SECTION
+**********************/
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	min-height: 800px;
+	align-items: center;
+	flex-grow: 1;
+	justify-content: center;
+
+
+}
+
+.first-page img, .second-page img, .third-page img {
+	max-width: 100%;
+	border: 2px solid #ddd;;
+	-webkit-box-shadow: 0 0 5px #ddd;
+        box-shadow: 0 0 5px #ddd;
+    opacity: .8;
+
+}
+	
+
+.first-page, .second-page, .third-page {
+	width: 50%;
+	min-width: 200px;
+
+}
+
+.first-page p, .second-page p, .third-page p {
+	 margin: -.7vh 0 10% 0;
+	 padding: 3%;
+}
+
+.button {
+	display: flex;
+	opacity: .8;
+
+}
+
+.button a {
+	text-align: center;
+	width: 100%;
+	border-radius: 5%;
+	padding: 1vh;
+	margin: -2vh 0 1vh 0;
+	border: 1px solid #B00019;
+	
+
+}
+
+.button a:hover {
+	background-color: #B00019;
+	color: #fff;
+
+}
+
+.gallery img:hover {
+	opacity: 1;
+}
+
+/********************
+ABOUT SECTION
+**********************/
+
+.about-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 375px;
+	align-items: center;
+}
+
+.content {
+	width: 90%;
+
+}
+
+.profile-photo {
+	display: block;
+	width: 40%;
+	margin: 10% auto 30px;
+	border-radius: 100%;
+	-webkit-box-shadow: 0 0 10px #ddd;
+        box-shadow: 0 0 10px #ddd;
+}
+
+
+.icon-git {
+	width: 15%;
+	position: absolute;
+	left: 15%;
+
+}
+
+.icon-linkedin {
+	width: 15%;
+	position: absolute;
+	left: 70%;
+	border-radius: 100%;
+}
+
+.contact {
+	text-align: center;
+}
+
+
+
+
+/**********************
+FOOTER
+**********************/
+
+footer {
+	font-size: 1.0em;
+	text-align: center;
+	clear: both;
+	padding-top: 30px;
+	color: #9a9a9a;
+
+}
+
+
+
+
+
+/********************
+COLORS
+********************/
+
+	/* site body */
+body {
+	background-color: #fff;
+	color: #525252;
+	}
+	
+	/* red header */
+header {
+	background: #B00019;
+	border-color: #B00000; 
+}	
+	
+/* nav background*/
+nav { 
+background: #9E090B;
+}
+
+h1, h2 {
+	color: #fff;
+}
+
+/* logo text */
+
+a {
+	color: #430304;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+
+ nav a:hover {
+	color: #430304;
+	}
+
+/* intro */
+
+.intro {
+	color: #525252;
+}
+
+/* gallery */
+
+.gallery p {
+	color: #525252;
+	background-color: #ddd;
+}
+
+
+
+
+.button a {
+	background-color: #fff;
+	color: #B00019;
+}
+
+
+/* footer */
+
+footer {
+	color: #525252;
+
+}
+
+.hover-feature {
+	  background-color: #000;
+	}
+
+}
+
+

@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 480px) {
+
+/**********HEADER AND NAV****/
+
+
+	.container {
+		width: 80%;
+
+	}
+
+	.logo, .main-nav,.main-nav li {
+	display: inline-block;
+	}
+
+	.main-header {
+	background-color: white;
+	text-align: center;
+
+	}
+
+	.main-nav li a img {
+	display: none;
+
+	}
+
+	.main-header img {
+	width: 15%;
+	}
+
+
+.main-header ul { 
+	font-size: 1.5em;
+
+	}
+
+	.main-header ul li{ 
+	margin: 0 20px;
+
+	}
+
+	
+}
