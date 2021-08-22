@@ -108,7 +108,7 @@ PORTFOLIO SECTION
 
 }
 
-.first-page img, .second-page img, .third-page img {
+.first-page img, .second-page img, .third-page img, .fourth-page img{
 	max-width: 100%;
 	border: 2px solid #ddd;;
 	-webkit-box-shadow: 0 0 5px #ddd;
@@ -118,13 +118,13 @@ PORTFOLIO SECTION
 }
 	
 
-.first-page, .second-page, .third-page {
+.first-page, .second-page, .third-page, .fourth-page {
 	width: 50%;
 	min-width: 200px;
 
 }
 
-.first-page p, .second-page p, .third-page p {
+.first-page p, .second-page p, .third-page p, .fourth-page p {
 	 margin: -.7vh 0 10% 0;
 	 padding: 3%;
 }
